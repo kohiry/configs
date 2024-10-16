@@ -14,5 +14,6 @@ echo "options hid_apple fnmode=2" | sudo tee -a /etc/modprobe.d/hid_apple.conf
 sudo modprobe -r hid_apple
 sudo modprobe hid_apple
 
-yay -S zsh docker docker-compose neovim gvim wl-clipboard hyprlock telegram-desktop firefox
+yay -S zsh docker docker-compose neovim gvim wl-clipboard hyprlock telegram-desktop firefox python-neovim
 
+git clone https://github.com/wbthomason/packer.nvim "$env:LOCALAPPDATA\nvim-data\site\pack\packer\start\packer.nvim"
